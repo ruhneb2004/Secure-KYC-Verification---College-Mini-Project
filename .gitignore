@@ -1,5 +1,17 @@
+node_modules/
+
+# Generated authority keys and reconstructed keys
+keys/
 *.pem
-*.bin
-*.json
+reconstructed_priv.pem
+
+# Generated ciphertext / plaintext outputs
 encrypted.txt
 decrypted.txt
+*.bin
+
+# Optional CLI share dumps
+shares.json
+
+# Local npm package tarballs
+*.tgz
